@@ -1,0 +1,38 @@
+.heading {
+    background-color: rgb(178, 107, 15);
+    text-shadow: 3px 3px 5px #19047f;
+    box-shadow: 11px 8px 13px #ff6c00;
+}
+
+.footer {
+    background-color: rgb(180, 176, 172);
+}
+
+body {
+    background-color: rgb(26 140 206);
+}
+
+.button1 {
+    background-color: rgb(233, 182, 63);
+    padding: 5px 10px;
+    font-weight: 700;
+    color: rgb(30, 0, 255);
+}
+
+.button2 {
+    background-color: rgb(233, 182, 63);
+    padding: 5px 10px;
+    font-weight: 700;
+    color: rgb(30, 0, 255);
+}
+
+.button3 {
+    background-color: rgb(233, 182, 63);
+    padding: 5px 10px;
+    font-weight: 700;
+    color: rgb(30, 0, 255);
+}
+
+.paragraphs {
+    text-decoration: underline;
+}

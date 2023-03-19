@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/class2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="color-table container">
+      <table class="table">
+        <caption class="caption">
+          Tytuł roboczy
+        </caption>
+        <thead>
+          <tr class="tableRow">
+            <th class="tableCell tableHeader" scope="col">Pierwsza kolumna</th>
+            <th class="tableCell tableHeader" scope="col">Druga kolumna</th>
+            <th class="tableCell tableHeader" scope="col">Trzecia kolumna</th>
+            <th class="tableCell tableHeader" colspan="2" scope="col">
+              Czwarta kolumna
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="tableRow">
+            <th class="tableCell tableHeader" scope="row">Pierwszy wiersz</th>
+            <td class="tableCell">pierwszy</td>
+            <td class="tableCell">drugi</td>
+            <td class="tableCell">trzeci</td>
+          </tr>
+          <tr class="tableRow">
+            <th class="tableCell tableHeader" scope="row">Drugi wiersz</th>
+            <td class="tableCell" rowspan="2">czwarty</td>
+            <td class="tableCell">piąty</td>
+            <td class="tableCell">szósty</td>
+          </tr>
+          <tr class="tableRow">
+            <th class="tableCell tableHeader" scope="row">Trzeci wiersz</th>
+            <td class="tableCell">siódmy</td>
+            <td class="tableCell">ósmy</td>
+          </tr>
+          <tr class="tableRow">
+            <th class="tableCell tableHeader" scope="row">Czwarty wiersz</th>
+            <td class="tableCell">dziewiąty</td>
+            <td class="tableCell">dziesiąty</td>
+            <td class="tableCell">jedenasty</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr class="tableRow">
+            <th class="tableCell tableHeader" scope="row" colspan="3">
+              Podsumowanie
+            </th>
+            <td class="tableCell">Dwunasty</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <div class="color-table2">
+      <div class="color-table-inside"></div>
+    </div>
+    <div class="color-table3"></div>
+  </body>
+</html>

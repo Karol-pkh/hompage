@@ -1,0 +1,18 @@
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.body {
+  color: blue;
+  
+}
+
+.dark {
+  color: antiquewhite;
+  background: rgb(0, 0, 0);
+}
